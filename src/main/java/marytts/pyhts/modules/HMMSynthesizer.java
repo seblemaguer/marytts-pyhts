@@ -22,18 +22,18 @@ public class HMMSynthesizer extends MaryModule {
 
     public Utterance process(Utterance utt, MaryProperties configuration) throws MaryException {
 
-	try {
-	    // Create fake voice
-	    PyHTSVoice v = new PyHTSVoice();
+        try {
+            // Create fake voice
+            PyHTSVoice v = new PyHTSVoice();
 
-	    // Try to call the wrapper
-	    PyHTSWrapper py_wrapper = new PyHTSWrapper();
-	    utt = py_wrapper.synthesizeHMM(v, utt, new DefaultHTSLabelSerializer(), false);
+            // Try to call the wrapper
+            PyHTSWrapper py_wrapper = new PyHTSWrapper();
+            utt = py_wrapper.synthesizeHMM(v, utt, new DefaultHTSLabelSerializer(), false);
 
-	    return utt;
-	} catch (Exception ex) {
-	    throw new MaryException("Problem during synthesis", ex);
-	}
+            return utt;
+        } catch (Exception ex) {
+            throw new MaryException("Problem during synthesis", ex);
+        }
     }
 
 
