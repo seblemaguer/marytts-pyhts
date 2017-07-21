@@ -17,6 +17,7 @@ import java.nio.file.SimpleFileVisitor;
 import java.nio.file.FileVisitResult;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.io.File;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
@@ -132,7 +133,7 @@ public class PyHTSWrapper {
 
         // write it
         BufferedWriter bw = new BufferedWriter(new FileWriter(tmp_label));
-        bw.write(label_serializer.toString(input_utt));
+        bw.write(label_serializer.export(input_utt).toString());
         bw.close();
 
         // Create
@@ -161,20 +162,34 @@ public class PyHTSWrapper {
         // clean
         tmp_label.delete();
 
-        // Files.walkFileTree(tmp_output_dir, new SimpleFileVisitor<Path>() {
-        //  @Override
-        //  public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-        //      Files.delete(file);
-        //      return FileVisitResult.CONTINUE;
-        //  }
+        Files.walkFileTree(tmp_output_dir, new SimpleFileVisitor<Path>() {
+		@Override
+		public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+		    Files.delete(file);
+		    return FileVisitResult.CONTINUE;
+		}
 
-        //  @Override
-        //  public FileVisitResult postVisitDirectory(Path dir, IOException exc) throws IOException {
-        //      Files.delete(dir);
-        //      return FileVisitResult.CONTINUE;
-        //  }
-        //     });
+		@Override
+		public FileVisitResult postVisitDirectory(Path dir, IOException exc) throws IOException {
+		    Files.delete(dir);
+		    return FileVisitResult.CONTINUE;
+		}
+            });
 
+
+        Files.walkFileTree(Paths.get("./tmp"), new SimpleFileVisitor<Path>() {
+		@Override
+		public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+		    Files.delete(file);
+		    return FileVisitResult.CONTINUE;
+		}
+
+		@Override
+		public FileVisitResult postVisitDirectory(Path dir, IOException exc) throws IOException {
+		    Files.delete(dir);
+		    return FileVisitResult.CONTINUE;
+		}
+	    });
         return input_utt;
     }
 

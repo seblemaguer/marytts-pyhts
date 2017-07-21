@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<maryxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.5" xml:lang="en-US" xmlns="http://mary.dfki.de/2002/MaryXML">
+  <p>Hello, how is it going?
+<s>Hello , how is it going ? <prosody>
+        <phrase>
+          <t pos="UH">Hello<syllable stress="0">
+              <ph p="h">
+                <features>
+                  <feature name="words_from_phrase_end" value="6" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="0" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="COMMA" value_class="java.lang.String"/>
+                  <feature name="phone" value="h" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="0" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="next_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="6" value_class="java.lang.Integer"/>
+                  <feature name="word_pos" value="UH" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="word_numsegs" value="4" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="ax" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="2" value_class="java.lang.Integer"/>
+                  <feature name="next_next_phone" value="l" value_class="java.lang.String"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="words_from_sentence_end" value="6" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+              <ph p="@">
+                <features>
+                  <feature name="words_from_phrase_end" value="6" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="0" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="COMMA" value_class="java.lang.String"/>
+                  <feature name="phone" value="ax" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_phone" value="h" value_class="java.lang.String"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="next_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="6" value_class="java.lang.Integer"/>
+                  <feature name="word_pos" value="UH" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="word_numsegs" value="4" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="l" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="2" value_class="java.lang.Integer"/>
+                  <feature name="next_next_phone" value="@U" value_class="java.lang.String"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="words_from_sentence_end" value="6" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+            </syllable>
+            <syllable stress="1">
+              <ph p="l">
+                <features>
+                  <feature name="words_from_phrase_end" value="6" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="COMMA" value_class="java.lang.String"/>
+                  <feature name="phone" value="l" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_phone" value="ax" value_class="java.lang.String"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="next_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_stress" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="5" value_class="java.lang.Integer"/>
+                  <feature name="word_pos" value="UH" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_prev_phone" value="h" value_class="java.lang.String"/>
+                  <feature name="word_numsegs" value="4" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="@U" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="2" value_class="java.lang.Integer"/>
+                  <feature name="next_next_phone" value="pau" value_class="java.lang.String"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="words_from_sentence_end" value="6" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+              <ph p="@U">
+                <features>
+                  <feature name="words_from_phrase_end" value="6" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="COMMA" value_class="java.lang.String"/>
+                  <feature name="phone" value="@U" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_phone" value="l" value_class="java.lang.String"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="next_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_stress" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="5" value_class="java.lang.Integer"/>
+                  <feature name="word_pos" value="UH" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_prev_phone" value="ax" value_class="java.lang.String"/>
+                  <feature name="word_numsegs" value="4" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="pau" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="2" value_class="java.lang.Integer"/>
+                  <feature name="next_next_phone" value="h" value_class="java.lang.String"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="words_from_sentence_end" value="6" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+            </syllable>
+          </t>
+          <t pos=",">,</t>
+          <t pos="WRB">how<syllable stress="1">
+              <ph p="h">
+                <features>
+                  <feature name="words_from_phrase_end" value="4" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_numsyls" value="0" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="VBZ" value_class="java.lang.String"/>
+                  <feature name="phone" value="h" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="prev_phone" value="pau" value_class="java.lang.String"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="next_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="4" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_pos" value="COMMA" value_class="java.lang.String"/>
+                  <feature name="word_pos" value="WRB" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_prev_phone" value="@U" value_class="java.lang.String"/>
+                  <feature name="word_numsegs" value="2" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="aU" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_next_phone" value="I" value_class="java.lang.String"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="words_from_sentence_end" value="4" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+              <ph p="aU">
+                <features>
+                  <feature name="words_from_phrase_end" value="4" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_numsyls" value="0" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="VBZ" value_class="java.lang.String"/>
+                  <feature name="phone" value="aU" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="prev_phone" value="h" value_class="java.lang.String"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="next_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="4" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_pos" value="COMMA" value_class="java.lang.String"/>
+                  <feature name="word_pos" value="WRB" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_prev_phone" value="pau" value_class="java.lang.String"/>
+                  <feature name="word_numsegs" value="2" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="I" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_next_phone" value="z" value_class="java.lang.String"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="words_from_sentence_end" value="4" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+            </syllable>
+          </t>
+          <t pos="VBZ">is<syllable stress="1">
+              <ph p="I">
+                <features>
+                  <feature name="words_from_phrase_end" value="3" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="PRP" value_class="java.lang.String"/>
+                  <feature name="phone" value="I" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="prev_phone" value="aU" value_class="java.lang.String"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="next_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="3" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_pos" value="WRB" value_class="java.lang.String"/>
+                  <feature name="word_pos" value="VBZ" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_prev_phone" value="h" value_class="java.lang.String"/>
+                  <feature name="word_numsegs" value="2" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="z" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_next_phone" value="I" value_class="java.lang.String"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="words_from_sentence_end" value="3" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+              <ph p="z">
+                <features>
+                  <feature name="words_from_phrase_end" value="3" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="PRP" value_class="java.lang.String"/>
+                  <feature name="phone" value="z" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="prev_phone" value="I" value_class="java.lang.String"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="next_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="3" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_pos" value="WRB" value_class="java.lang.String"/>
+                  <feature name="word_pos" value="VBZ" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_prev_phone" value="aU" value_class="java.lang.String"/>
+                  <feature name="word_numsegs" value="2" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="I" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_next_phone" value="t" value_class="java.lang.String"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="words_from_sentence_end" value="3" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+            </syllable>
+          </t>
+          <t pos="PRP">it<syllable stress="1">
+              <ph p="I">
+                <features>
+                  <feature name="words_from_phrase_end" value="2" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="VBG" value_class="java.lang.String"/>
+                  <feature name="phone" value="I" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_phone" value="z" value_class="java.lang.String"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="next_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_pos" value="VBZ" value_class="java.lang.String"/>
+                  <feature name="word_pos" value="PRP" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_prev_phone" value="I" value_class="java.lang.String"/>
+                  <feature name="word_numsegs" value="2" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="t" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_next_phone" value="g" value_class="java.lang.String"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="words_from_sentence_end" value="2" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+              <ph p="t">
+                <features>
+                  <feature name="words_from_phrase_end" value="2" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="VBG" value_class="java.lang.String"/>
+                  <feature name="phone" value="t" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_phone" value="I" value_class="java.lang.String"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="next_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_pos" value="VBZ" value_class="java.lang.String"/>
+                  <feature name="word_pos" value="PRP" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_prev_phone" value="z" value_class="java.lang.String"/>
+                  <feature name="word_numsegs" value="2" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="g" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_next_phone" value="@U" value_class="java.lang.String"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="words_from_sentence_end" value="2" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+            </syllable>
+          </t>
+          <t pos="VBG">going<syllable stress="1">
+              <ph p="g">
+                <features>
+                  <feature name="words_from_phrase_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_stress" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="FULLSTOP" value_class="java.lang.String"/>
+                  <feature name="phone" value="g" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_phone" value="t" value_class="java.lang.String"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="next_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_pos" value="PRP" value_class="java.lang.String"/>
+                  <feature name="word_pos" value="VBG" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_prev_phone" value="I" value_class="java.lang.String"/>
+                  <feature name="word_numsegs" value="4" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="@U" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="2" value_class="java.lang.Integer"/>
+                  <feature name="next_next_phone" value="I" value_class="java.lang.String"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="words_from_sentence_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+              <ph p="@U">
+                <features>
+                  <feature name="words_from_phrase_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_stress" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="FULLSTOP" value_class="java.lang.String"/>
+                  <feature name="phone" value="@U" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_phone" value="g" value_class="java.lang.String"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="next_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_pos" value="PRP" value_class="java.lang.String"/>
+                  <feature name="word_pos" value="VBG" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_prev_phone" value="t" value_class="java.lang.String"/>
+                  <feature name="word_numsegs" value="4" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="I" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="2" value_class="java.lang.Integer"/>
+                  <feature name="next_next_phone" value="N" value_class="java.lang.String"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="next_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="words_from_sentence_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+            </syllable>
+            <syllable stress="0">
+              <ph p="I">
+                <features>
+                  <feature name="words_from_phrase_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="FULLSTOP" value_class="java.lang.String"/>
+                  <feature name="phone" value="I" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_phone" value="@U" value_class="java.lang.String"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_pos" value="PRP" value_class="java.lang.String"/>
+                  <feature name="word_pos" value="VBG" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_prev_phone" value="g" value_class="java.lang.String"/>
+                  <feature name="word_numsegs" value="4" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="N" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="2" value_class="java.lang.Integer"/>
+                  <feature name="next_next_phone" value="pau" value_class="java.lang.String"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="words_from_sentence_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+              <ph p="N">
+                <features>
+                  <feature name="words_from_phrase_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_start" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_word_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="syl_stress" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_numsyls" value="1" value_class="java.lang.Integer"/>
+                  <feature name="ph_from_syl_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="next_word_pos" value="FULLSTOP" value_class="java.lang.String"/>
+                  <feature name="phone" value="N" value_class="java.lang.String"/>
+                  <feature name="next_word_numsyls" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_phone" value="I" value_class="java.lang.String"/>
+                  <feature name="phrase_numsyls" value="7" value_class="java.lang.Integer"/>
+                  <feature name="phrase_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="sentence_numphrases" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numwords" value="7" value_class="java.lang.Integer"/>
+                  <feature name="inDirectSpeech" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_from_paragraph_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_stress" value="1" value_class="java.lang.Integer"/>
+                  <feature name="syls_from_phrase_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_word_pos" value="PRP" value_class="java.lang.String"/>
+                  <feature name="word_pos" value="VBG" value_class="java.lang.String"/>
+                  <feature name="phrases_from_sentence_end" value="0" value_class="java.lang.Integer"/>
+                  <feature name="prev_syl_numph" value="2" value_class="java.lang.Integer"/>
+                  <feature name="prev_prev_phone" value="@U" value_class="java.lang.String"/>
+                  <feature name="word_numsegs" value="4" value_class="java.lang.Integer"/>
+                  <feature name="next_phone" value="pau" value_class="java.lang.String"/>
+                  <feature name="word_numsyls" value="2" value_class="java.lang.Integer"/>
+                  <feature name="syl_accent" value="false" value_class="java.lang.Boolean"/>
+                  <feature name="sentence_numsyllables" value="7" value_class="java.lang.Integer"/>
+                  <feature name="words_from_sentence_end" value="1" value_class="java.lang.Integer"/>
+                  <feature name="paragraph_numsentences" value="1" value_class="java.lang.Integer"/>
+                </features>
+              </ph>
+            </syllable>
+          </t>
+          <t pos=".">?</t>
+        </phrase>
+      </prosody>
+    </s>
+  </p>
+</maryxml>
